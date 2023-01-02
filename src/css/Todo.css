@@ -1,0 +1,48 @@
+.Todo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Todo span {
+    color: #222;
+    width: 100%;
+    font-size: 17px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    letter-spacing: -0.02em;
+}
+
+.Todo span:hover {
+    background-color: #f1f1f1;
+}
+
+.TodoBtn-wrapper {
+    position: absolute;
+    top: 50%; right: 8px;
+    transform: translate(0, -50%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.editBtn {
+    color: #aaa;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    color: #555;
+}
+
+.delBtn {
+    color: #aaa;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.delBtn:hover {
+    color: #555;
+}

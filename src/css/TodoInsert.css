@@ -1,0 +1,43 @@
+.Insert {
+    width: 100%;
+}
+
+.input-wrapper {
+    width: 100%;
+    display: flex;
+    gap: .3rem;
+}
+
+.todo-input {
+    width: 90%;
+    height: 45px;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Pretendard';
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.todo-input:focus {
+    border: 1px solid #aaa;
+}
+
+.todo-input::placeholder {
+    color: #ccc;
+    font-weight: 400;
+}
+
+.addBtn {
+    color: #fff;
+    width: 10%;
+    font-size: 20px;
+    font-family: 'Pretendard';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: #222;
+    cursor: pointer;
+}
